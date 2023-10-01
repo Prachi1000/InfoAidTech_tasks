@@ -1,0 +1,75 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(181, 179, 182);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame
+{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    box-shadow:  5px 5px 10px #68cdca,-5px -5px 10px #ffffff;
+    box-sizing: border-box;
+}
+
+.heading
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#display
+{
+   height: 80px;
+   width: 100%;
+   border: none;
+   outline: none;
+   background-color: transparent;
+   box-shadow:inset  4px 4px 7px #b4edf4,inset -5px -5px 13px #f4f2f2;
+   padding: 5px;
+   box-sizing: border-box;
+   text-align: right;
+   border-radius: 5px;
+   font-size: 30px;
+}
+.button-group
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.button
+{
+    height: 70px;
+    width: 70px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-radius: 5px;
+    box-shadow:  5px 5px 10px #b6acac, -5px -5px 13px #fafaf4;
+}
+.button:active
+{
+    box-shadow: inset 1px 1px 2px #babeec,inset -1px -1px 2px #ffffff;
+}
+
+.button:hover
+{
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
